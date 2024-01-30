@@ -1,7 +1,5 @@
 # MigrateWorkouts (MapMyFitness)
 
-# Workout Downloader
-
 ## Overview
 
 This project is a simple workout downloader that retrieves workout URLs from an Excel file and downloads each workout. It utilizes Selenium WebDriver and Apache POI for Excel file processing.
