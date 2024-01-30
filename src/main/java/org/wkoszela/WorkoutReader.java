@@ -1,14 +1,16 @@
 package org.wkoszela;
 
-import java.io.InputStream;
-import java.util.List;
-
-import org.apache.poi.ss.usermodel.*;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 
 /**
  * The {@code WorkoutReader} class is responsible for reading workouts from an Excel file.

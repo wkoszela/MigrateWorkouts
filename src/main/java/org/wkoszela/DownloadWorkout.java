@@ -39,6 +39,6 @@ public class DownloadWorkout {
         });
         driver.quit();
 
-        }
-
     }
+
+}
