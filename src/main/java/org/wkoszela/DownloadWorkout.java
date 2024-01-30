@@ -24,7 +24,7 @@ public class DownloadWorkout {
         driver.get(loginPage);
 
         // Provide login and password after when the page loaded
-        Thread.sleep(15000);
+        Thread.sleep(30000);
         AtomicInteger counter = new AtomicInteger(1); // Counter do śledzenia indeksów
 
         workouts.forEach(workout -> {
