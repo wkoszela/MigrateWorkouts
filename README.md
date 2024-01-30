@@ -20,7 +20,7 @@ This project is a simple workout downloader that retrieves workout URLs from an 
 1. Clone the repository:
 
     ```bash
-    git clone [https://github.com/wkoszela/MigrateWorkouts.git](https://github.com/wkoszela/MigrateWorkouts.git)
+    git clone https://github.com/wkoszela/MigrateWorkouts.git
     ```
 
 2. Navigate to the project directory:
