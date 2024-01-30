@@ -5,6 +5,8 @@
 This project is a simple workout downloader that retrieves workout URLs from an Excel file and downloads each workout. It utilizes Selenium WebDriver and Apache POI for Excel file processing.
 
 **Note:** This project is designed as a workaround for downloading workout data due to the lack of access to the MapMyFitness API.
+<img width="795" alt="image" src="https://github.com/wkoszela/MigrateWorkouts/assets/29572491/79016918-fb0a-424a-bf80-ccc9ae4ccfc5">
+
 
 ## Prerequisites
 
