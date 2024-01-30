@@ -10,7 +10,19 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
 
+/**
+ * The {@code WorkoutReader} class is responsible for reading workouts from an Excel file.
+ *
+ * @author WKOSZELA
+ */
 public class WorkoutReader {
+
+    /**
+     * Reads all workouts from the specified Excel file.
+     *
+     * @param path The path to the Excel file.
+     * @return A list of workout URLs, where each URL is appended with "/tcx".
+     */
     public List<String> readAllWorkouts(String path) {
 
         Sheet sheet = null;
@@ -27,6 +39,12 @@ public class WorkoutReader {
         return readColumnA(sheet);
     }
 
+    /**
+     * Reads the content of column A from the given Excel sheet.
+     *
+     * @param sheet The Excel sheet.
+     * @return A list of workout URLs, where each URL is appended with "/tcx"!
+     */
     private static List<String> readColumnA(Sheet sheet) {
         List<String> columnData = new ArrayList<>();
 
